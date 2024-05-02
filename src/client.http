@@ -1,0 +1,29 @@
+### LIST ALL TASKS
+GET http://localhost:3333/tasks
+
+### LIST TASKS WITH FILTERS
+GET http://localhost:3333/tasks?search=nova
+
+### ADD A TASK
+POST http://localhost:3333/tasks
+content-type: application/json
+
+{
+  "title": "Nova Task",
+  "description": "Descrição da Task"
+}
+
+### UPDATE A TASK
+PUT http://localhost:3333/tasks/:id
+content-type: application/json
+
+{
+  "title": "Nova Task Editada",
+  "description": "Nova descrição da Task"
+}
+
+### TOGGLE A TASK COMPLETED
+PATCH http://localhost:3333/tasks/:id
+
+### DELETE A TASK
+DELETE http://localhost:3333/tasks/:id

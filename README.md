@@ -2,7 +2,7 @@
 
 ### Running the project...
 
-After clone the repo, with node v20.10 run:
+After clone the repo, inside of module-01 and with node v20.10 run:
 
 - `npm install`
 - `npm run dev`

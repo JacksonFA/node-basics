@@ -1,10 +1,10 @@
 # NodeJS Basics to Advanced
 
-## Ignite Node.js 2023 - Module 01
+## Ignite Node.js 2023 - Module 01 (Fundamentals, Node HTTP and Streams)
 
-### Running the project...
+### Running the project
 
-After clone the repo, inside of module-01 and with node v20.10 run:
+After clone the repo, inside of 01-fundamentals-http-streams and with node v20.10 run:
 
 - `npm install`
 - `npm run dev`
@@ -16,11 +16,11 @@ To import a csv file:
 
 The available endpoints are in: `src/client.http`
 
-## Ignite Node.js 2023 - Module 02
+## Ignite Node.js 2023 - Module 02 (API Rest, Fastify and Knex)
 
-### Running the project...
+### Running the project
 
-After clone the repo, inside of module-02 and with node v20.10 run:
+After clone the repo, inside of 02-rest-fastify-knex and with node v20.10 run:
 
 - `yarn`
 - setup .env and .env.test files like examples
@@ -30,11 +30,11 @@ After clone the repo, inside of module-02 and with node v20.10 run:
 
 The available endpoints are in: `src/client.http`
 
-## Ignite Node.js 2023 - Module 03
+## Ignite Node.js 2023 - Module 03 (Solid, Design Patterns and JWT)
 
-### Running the project...
+### Running the project
 
-After clone the repo, inside of module-03 and with node v18.10 run:
+After clone the repo, inside of 03-solid-patterns-jwt and with node v18.10 run:
 
 - to install dependencies: `npm install`
 - setup .env file like example
@@ -48,3 +48,31 @@ After clone the repo, inside of module-03 and with node v18.10 run:
   - `npm run test:e2e` or `npm run test:e2e:watch`
 
 Some available endpoints are in `insomnia.json` to import for insomnia
+
+## Ignite Node.js 2023 - Module 04 (DDD, Clean Arch and TDD)
+
+### Running the project
+
+After clone the repo, inside of 04-ddd-clean_arch and with node v18.10 run:
+
+- to install dependencies: `npm install`
+- to unit tests: `npm run test` or `npm run test:watch`
+
+## Ignite Node.js 2023 - Module 05 (NestJS, Prisma and Clean Arch)
+
+### Running the project
+
+After clone the repo, inside of 05-nest-prisma-clean_arch and with node v18.10 run:
+
+- to install dependencies: `npm install`
+- setup .env file like example
+- to run postgreSQL and Redis: `docker compose up -d`
+- to run: `npm run dev`
+- to build: `npm run build`
+- to unit tests: `npm run test` or `npm run test:watch`
+- to e2e tests:
+  - `npm run test:create-prisma-environment`
+  - `npm run test:install-prisma-environment`
+  - `npm run test:e2e` or `npm run test:e2e:watch`
+
+The available endpoints are in: `src/client.http`
